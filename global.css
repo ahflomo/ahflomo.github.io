@@ -1,11 +1,11 @@
 p {
-    color: rgba(80, 160, 220, 0.75);
+    color: rgba(80, 100, 220, 0.75);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1em;
 }
 
 h1 {
-    color: rgba(80, 160, 220, 0.75);
+    color: rgba(80, 100, 220, 0.75);
     font-family: "Monaco", "Courier New", monospace;
-    font-size: 3em;
+    font-size: 2em;
 }
