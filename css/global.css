@@ -9,3 +9,9 @@ h1 {
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1.5em;
 }
+
+.bibbase_group_whole {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 1em;
+    color: rgba(100, 100, 100);
+}
