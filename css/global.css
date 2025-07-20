@@ -14,6 +14,14 @@ h2 {
     color: rgba(80, 100, 280, 0.85);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1.2em;
+    margin-top: 30px;
+}
+
+ul {
+    color: rgba(80, 100, 280, 0.85);
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 0.8em;
+    margin-left: 130px;
 }
 
 .bibbase_group_whole {
