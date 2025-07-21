@@ -1,7 +1,16 @@
+body {
+    background-color: rgba(177, 170, 170, 0.5);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 p {
-    color: rgba(80, 100, 280, 0.85);
+    color: rgba(100, 100, 100);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1em;
+    margin-bottom: 1px;
 }
 
 h1 {
@@ -14,6 +23,30 @@ h2 {
     color: rgba(80, 100, 280, 0.85);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1.2em;
+    margin-top: 30px;
+}
+
+ul {
+    color: rgba(100, 100, 100);
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 0.8em;
+    margin-bottom: 1px;
+}
+
+.columns_container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: start;
+}
+
+.column_left {
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.column_right {
+    text-align: left;
+    margin-bottom: 1px;
 }
 
 .bibbase_group_whole {
