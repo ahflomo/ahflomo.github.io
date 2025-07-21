@@ -29,7 +29,20 @@ ul {
     color: rgba(100, 100, 100);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 0.8em;
-    margin-left: 130px;
+}
+
+.columns_container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: start;
+}
+
+.column_left {
+    text-align: left;
+}
+
+.column_right {
+    text-align: left;
 }
 
 .bibbase_group_whole {
