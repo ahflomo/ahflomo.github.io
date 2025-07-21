@@ -10,6 +10,7 @@ p {
     color: rgba(100, 100, 100);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1em;
+    margin-bottom: 1px;
 }
 
 h1 {
@@ -29,6 +30,7 @@ ul {
     color: rgba(100, 100, 100);
     font-family: "Monaco", "Courier New", monospace;
     font-size: 0.8em;
+    margin-bottom: 1px;
 }
 
 .columns_container {
@@ -39,10 +41,12 @@ ul {
 
 .column_left {
     text-align: left;
+    margin-bottom: 1px;
 }
 
 .column_right {
     text-align: left;
+    margin-bottom: 1px;
 }
 
 .bibbase_group_whole {
