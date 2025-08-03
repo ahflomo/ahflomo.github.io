@@ -65,3 +65,14 @@ ul {
     text-align: left;
     margin-top: 40px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    color: rgba(100, 100, 100);
+}
