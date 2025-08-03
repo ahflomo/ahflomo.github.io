@@ -33,9 +33,15 @@ ul {
     margin-bottom: 1px;
 }
 
+.note {
+    color: rgba(100, 100, 100);
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 0.8em;
+}
+
 .columns_container {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 16% 80%;
     align-items: start;
 }
 
