@@ -41,7 +41,7 @@ ul {
 
 .columns_container {
     display: grid;
-    grid-template-columns: 16% 80%;
+    grid-template-columns: 15% 85%;
     align-items: start;
 }
 
