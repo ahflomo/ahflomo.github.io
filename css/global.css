@@ -39,13 +39,6 @@ img {
     border-radius: 5pt;
 }
 
-ul {
-    color: rgba(100, 100, 100);
-    font-family: "Monaco", "Courier New", monospace;
-    font-size: 0.8em;
-    margin-bottom: 1px;
-}
-
 .note {
     color: rgba(100, 100, 100);
     font-family: "Monaco", "Courier New", monospace;
@@ -71,7 +64,7 @@ ul {
 .bibbase_group_whole {
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1em;
-    color: rgba(100, 100, 100);
+    color: rgba(200, 200, 200);
 }
 
 #format_home_publis {
