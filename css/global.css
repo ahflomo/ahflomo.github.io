@@ -61,10 +61,32 @@ img {
     margin-bottom: 1px;
 }
 
+/* Style for the bibliography section */
+
 .bibbase_group_whole {
     font-family: "Monaco", "Courier New", monospace;
     font-size: 1em;
     color: rgba(200, 200, 200);
+}
+
+/* format for abstracts */
+.bibbase_group_whole div.bibbase[data-type="abstract"] {
+    background-color: rgb(0, 0, 0) !important;
+    text-align: justify !important;
+    text-justify: auto !important;
+    hyphens: auto !important;
+}
+
+/* format for note */
+.bibbase_group_whole .note {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 1em;
+    color: rgba(200, 200, 200);
+}
+
+/* format for bibtex */
+.bibbase_group_whole div.bibbase[data-type="bibtex"] {
+    background-color: rgb(0, 0, 0) !important;
 }
 
 #format_home_publis {
