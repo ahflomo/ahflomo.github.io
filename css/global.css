@@ -87,6 +87,22 @@ img {
 /* format for bibtex */
 .bibbase_group_whole div.bibbase[data-type="bibtex"] {
     background-color: rgb(0, 0, 0) !important;
+    padding: 2px;
+}
+
+/* format for BibBase logo */
+#bibbase_group_whole div[style*="float:right"] a,
+#bibbase_group_whole div[style*="float:right"] a img {
+    background-color: white !important;
+    padding: 2px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+/* BibBase logo is hidden by default, but can be shown by removing the "display: none" style */
+#bibbase_group_whole div[style*="float:right"] a,
+#bibbase_group_whole div[style*="float:right"] a img {
+    display: none !important;
 }
 
 #format_home_publis {
