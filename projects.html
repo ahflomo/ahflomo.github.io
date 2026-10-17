@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florian Aschinger</title>
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <style>
+        #map {
+            position: relative;
+            width: 40%;
+            height: 300px;
+            margin: 0 auto;
+        }
+        #map .leaflet-tile {
+            margin: 0;
+            border: 0;
+            border-radius: 0;
+        }
+    </style>
 </head>
 <body>
     <h1>Projects</h1>
@@ -16,9 +31,20 @@
         <p>(not yet published...)</p>
     </div>
     <p>baRADies?! is a data story about cycling in and around Bamberg. Using data from the campaign "Stadtradeln" in 2024 the story offers various perspectives on how cyclists use the traffic infrastructure. The users can personalize the story by taking a short survey at the beginning, and the responses are then used to customize the narrative and the interactive elements (choropleth and heat maps as well as bar charts, chord and arc diagrams).</p>
-
+    
+    <p><div id="map" style="height: 300px;"></div></p>
+    
     <p><a href="index.html">Home</a></p>
 
     <footer>&copy; 2026 Florian Aschinger</footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const map = L.map("map").setView([49.8917, 10.8864], 14);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap-Mitwirkende</a>"
+        }).addTo(map);
+    </script>
 </body>
 </html>
