@@ -25,7 +25,7 @@
     </p>
 -->
     <p>
-    Lately, I've been developing <a href="projects.html">data stories</a>, which includes data analysis and interpretation as well as data visualisation and storytelling. I have also published some articles and book chapters which can be found in the list of <a href="publis.html">publications</a>.
+    Lately, I've been developing <a id="stories" href="projects.html">data stories</a>, which includes data analysis and interpretation as well as data visualisation and storytelling. I have also published some articles and book chapters which can be found in the list of <a id="publis" href="publis.html">publications</a>.
     </p>
     
     <p>
@@ -39,5 +39,17 @@
     </div>
 
     <footer>&copy; 2026 Florian Aschinger</footer>
+
+<script>
+    document.querySelectorAll("#stories, #publis").forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+            link.classList.add("is-highlighted");
+        });
+
+        link.addEventListener("mouseleave", () => {
+            link.classList.remove("is-highlighted");
+        });
+    });
+</script>
 </body>
 </html>
