@@ -31,8 +31,7 @@ a {
     text-decoration: underline;
 }
 
-#stories.is-highlighted,
-#publis.is-highlighted {
+.is-highlighted {
     color: #f2c14e;
     font-weight: bold;
 }

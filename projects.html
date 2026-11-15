@@ -46,5 +46,17 @@
             attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap-Mitwirkende</a>"
         }).addTo(map);
     </script>
+
+    <script>
+        document.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("mouseenter", () => {
+                link.classList.add("is-highlighted");
+            });
+
+            link.addEventListener("mouseleave", () => {
+                link.classList.remove("is-highlighted");
+            });
+        });
+    </script>
 </body>
 </html>
