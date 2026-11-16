@@ -27,12 +27,12 @@ h2 {
 }
 
 a {
-    color: rgb(143, 67, 143);
+    color: rgb(280, 180, 80);
     text-decoration: underline;
 }
 
 .is-highlighted {
-    color: #f2c14e;
+    color: rgb(240, 190, 80);
     font-weight: bold;
 }
 
